@@ -1,5 +1,6 @@
 /*
-clang++ -std=c++1y hello14.cpp
+clang++ -std=c++14 hello14.cpp
+// g++ -std=c++1y hello14.cpp
 */
 
 #include <iostream>
