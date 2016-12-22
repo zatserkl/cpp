@@ -3,7 +3,7 @@ C++11 extension for the range-based for loop:
 
 for (int& i:numbers) ...
 
-clang++ -std=c++1y -Wall iota1.cpp
+clang++ -std=c++14 -Wall iota1.cpp
 */
 
 // iota example

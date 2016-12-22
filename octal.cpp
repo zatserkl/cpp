@@ -1,5 +1,5 @@
 /*
-clang++ -std=c++1y -Wall octal.cpp
+clang++ -std=c++14 -Wall octal.cpp
 */
 
 #include <cstdio>

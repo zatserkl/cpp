@@ -1,6 +1,6 @@
 /*
 Compile for C++14 (because of auto)
-clang++ -std=c++1y -Wall bsearch_char.cpp
+clang++ -std=c++14 -Wall bsearch_char.cpp
 */
 #include <iostream>
 #include <iomanip>
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     pattern << 'b' << 'y' << 't' << 'e';
     //--binary-- pattern << 0 << 0 << 0 << 0;
 
-    for (auto a=pattern.begin(); a!=pattern.end(); ++a) {     // auto is C++14 extension, compile with -std=c++1y
+    for (auto a=pattern.begin(); a!=pattern.end(); ++a) {     // auto is C++14 extension, compile with -std=c++14
         cout<< (char) *a;
         //--binary-- cout<< std::hex << (unsigned) (unsigned char) *a << " ";
     }
